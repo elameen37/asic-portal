@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>ASIC-NG</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <h1>Register</h1>
+    </div>
+    <div><br /></div>
+    <div class="register-form">
+      <div class="image-container-2">
+        <img src="/img/register.png" alt="image-3" />
+      </div>
+      <form action="/pages/register_success.html" method="">
+        <div class="form-group-register">
+          <input
+            type="text"
+            placeholder="First Name"
+            class="form-control-register"
+            id="firstname"
+            name="firstname"
+          />
+        </div>
+        <div class="form-group-register">
+          <input
+            type="text"
+            placeholder="Middle Name"
+            class="form-control-register"
+            id="middlename"
+            name="middlename"
+          />
+        </div>
+        <div class="form-group-register">
+          <input
+            type="text"
+            placeholder="Last Name"
+            class="form-control-register"
+            id="lastname"
+            name="lastname"
+          />
+        </div>
+        <div class="form-group-register">
+          <input
+            type="text"
+            placeholder="NIN"
+            class="form-control-register"
+            id="nin"
+            name="nin"
+          />
+        </div>
+        <!--<div class="form-group-register">
+          <label for="calendar">Date of Birth:</label>
+          <input type="date" id="calendar" name="calendar" />
+        </div>-->
+        <div class="form-group-register">
+          <select id="lga" name="lga">
+            <option value="option1">Local Government</option>
+            <option value="option1">lga-XXXXXXXXXXXXXXXXXX</option>
+            <option value="option2">lga-XXXXXXXXXXXXXXXXXX</option>
+            <option value="option3">lga-XXXXXXXXXXXXXXXXXX</option>
+          </select>
+        </div>
+        <div class="form-group-register">
+          <select id="ward" name="ward">
+            <option value="option1">Ward</option>
+            <option value="option1">ward-XXXXXXXXXXXXXXXXX</option>
+            <option value="option2">ward-XXXXXXXXXXXXXXXXX</option>
+            <option value="option3">ward-XXXXXXXXXXXXXXXXX</option>
+          </select>
+        </div>
+        <div class="form-group-register">
+          <input
+            type="text"
+            placeholder="Place of Birth"
+            class="form-control-register"
+            id="pob"
+            name="pob"
+          />
+        </div>
+        <div class="form-group-register">
+          <label>Gender:</label>
+          <label class="container"
+            >Male
+            <input type="radio" checked="checked" />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Female
+            <input type="radio" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <br />
+        <div class="upload-doc">
+        <p for="file-upload"><span>Upload Image <i>(max file size = 2mb)</i></span></p>
+        <input type="file" id="file-upload" name="file-upload" accept="image/*">
+      </div>             
+        <br /><br />        
+        <button type="submit" class="btn-register btn-primary">Register</button>
+        
+      </form>
+    </div>
+  </body>
+</html>

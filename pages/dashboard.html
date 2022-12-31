@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+    <script src="/js/tabs.js"></script>
+    <title>ASIC-NG</title>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="tabs">
+        <div class="tab-btn-hm"><a href="/index.html">
+          <button>
+            <img src="/img/home-logo.png" alt="image-home" />
+          </button>
+        </a></div>
+        <button class="tab-btn active" onclick="openTab(event, 'tab1')">
+          My Dashboard
+        </button>
+        <button class="tab-btn" onclick="openTab(event, 'tab2')">
+          Certificates
+        </button>
+        <button class="tab-btn" onclick="openTab(event, 'tab3')">
+          Approval
+        </button>
+        <button class="tab-btn" onclick="openTab(event, 'tab4')">Users</button>
+        <button class="tab-btn">Logout</button>
+      </div>
+      <div class="tab-content">
+        <div id="tab1" class="tab active">
+          <h2>Dashboard</h2>
+          <p>
+            Lorem ipsm, dolor sit amet consectetur adipisicing elit. Deserunt
+            tempore fugiat porro quasi autem excepturi, nemo qui odit atque illo
+            obcaecati corrupti et fugit est, ducimus odio adipisci quis saepe.
+          </p>
+        </div>
+        <div id="tab2" class="tab">
+          <h2>Certificates</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            unde repellendus modi adipisci excepturi. Illo voluptatum, laborum
+            omnis architecto eveniet, explicabo cum nisi unde itaque rerum
+            officia dolor iusto suscipit.
+          </p>
+        </div>
+        <div id="tab3" class="tab">
+          <h2>Approval</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+            eos vel sequi. Libero cumque, officia magni corporis reiciendis
+            doloribus atque ut reprehenderit debitis aliquam modi ex molestias
+            pariatur, odit magnam!
+          </p>
+        </div>
+        <div id="tab4" class="tab">
+          <h2>Users</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+            eos vel sequi. Libero cumque, officia magni corporis reiciendis
+            doloribus atque ut reprehenderit debitis aliquam modi ex molestias
+            pariatur, odit magnam!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
